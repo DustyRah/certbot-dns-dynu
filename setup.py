@@ -3,15 +3,15 @@ from os import path
 from setuptools import setup
 from setuptools import find_packages
 
-version = "0.0.4"
+version = "0.0.5"
 
 with open('README.md') as f:
     long_description = f.read()
 
 install_requires = [
-    'acme>=2.0.0',
-    'certbot>=2.0.0',
-    'dns-lexicon==3.11.7',
+    'acme>=2.9.0.dev0',
+    'certbot>=2.9.0.dev0',
+    'dns-lexicon==3.14.1',
     'dnspython',
     'mock',
     'setuptools',
@@ -39,12 +39,12 @@ setup(
         'License :: OSI Approved :: Apache Software License',
         'Operating System :: POSIX :: Linux',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Security',
         'Topic :: System :: Installation/Setup',
